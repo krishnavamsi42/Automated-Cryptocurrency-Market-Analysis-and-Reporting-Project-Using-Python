@@ -20,6 +20,7 @@ The primary goal of this project is to:
 - Schedule
 - Dotenv (for environment variables)
 
+### Purpose
 - Python: The main programming language used to develop the application.
 - Requests: To fetch real-time cryptocurrency data from the CoinGecko API.
 - Pandas: For data manipulation and creating structured reports in CSV format.
