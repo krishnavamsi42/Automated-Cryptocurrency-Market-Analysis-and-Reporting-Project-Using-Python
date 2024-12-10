@@ -27,3 +27,33 @@ The primary goal of this project is to:
 - SMTP: For sending emails with attachments.
 - Schedule: For automating the task to run daily at 8:00 AM.
 - Dotenv: For securely managing environment variables like email credentials.
+
+## Findings
+The project identifies the top 10 cryptocurrencies with:
+
+- Highest price increase: Cryptocurrencies that have had the largest price increase in the last 24 hours.
+- Highest price decrease: Cryptocurrencies that have had the largest price decrease in the last 24 hours.
+
+These insights can be valuable for investors looking to track market trends or identify potential investment opportunities.
+
+Sample Output (CSV)
+The CSV file contains the following columns:
+
+- ID: The cryptocurrency identifier.
+- Current Price: The current market price of the cryptocurrency.
+- Market Cap: The total market capitalization of the cryptocurrency.
+- Price Change Percentage (24h): The percentage change in the price over the last 24 hours.
+- 24h High: The highest price reached in the last 24 hours.
+- 24h Low: The lowest price reached in the last 24 hours.
+- All-Time High (ATH): The highest price ever recorded for the cryptocurrency.
+- All-Time Low (ATL): The lowest price ever recorded for the cryptocurrency.
+- Timestamp: The date and time when the data was retrieved.
+
+## Objectives Achieved
+- Automated Data Collection: Real-time data is fetched from the CoinGecko API every day.
+- Data Analysis: Analyzed and identified the top-performing and underperforming cryptocurrencies based on price changes.
+- Email Automation: A report is automatically generated and sent via email every day, providing insights into the market's performance.
+- Ease of Use: The script is easy to use and can be scheduled to run without manual intervention.
+
+## Conclusion
+This project demonstrates how automation can be applied to real-time cryptocurrency market analysis, helping investors or analysts stay informed without manually tracking market data. With the addition of scheduled tasks and automated email reports, this solution provides both convenience and actionable insights. The project can be extended to track additional metrics or support multiple users.
