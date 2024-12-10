@@ -19,3 +19,10 @@ The primary goal of this project is to:
 - SMTP
 - Schedule
 - Dotenv (for environment variables)
+
+- Python: The main programming language used to develop the application.
+- Requests: To fetch real-time cryptocurrency data from the CoinGecko API.
+- Pandas: For data manipulation and creating structured reports in CSV format.
+- SMTP: For sending emails with attachments.
+- Schedule: For automating the task to run daily at 8:00 AM.
+- Dotenv: For securely managing environment variables like email credentials.
